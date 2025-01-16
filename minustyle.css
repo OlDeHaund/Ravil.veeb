@@ -1,26 +1,41 @@
 img{
     border: 2px dotted yellowgreen;
-    border-radius: 360px;
+    border-radius: 330px;
     width: 25%;
-    padding: 1px;
+    padding: 2px;
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 2px;
     font-variant: small-caps;
-    color: MediumTurquoise;
+    color: DarkSlateGray;
     text-align: center;
+    margin: auto;
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 2px;
     font-variant: small-caps;
-    color: #48D1CC;
+    color: DarkSlateGray;
     text-align: center ;
 }
 ul{
     list-style-type: square;
-    margin-left: 10px;
+    margin-left: 10%;
     border: 1pt dotted teal;
+    text-align: center;
     width: 10%;
+}
+
+li{
+    text-align: center;
+
+}
+#issues1{ font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    letter-spacing: 2px;
+
+    color: DarkSlateGray;
+    width: 1028px;
+    text-align: left;
+    margin-left: 10%;
 }
