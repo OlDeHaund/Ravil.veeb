@@ -2,40 +2,60 @@
 <html lang="et">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studing Git main page</title>
-<!--css fail connection-->
+    <!-- CSS fail ühendus -->
     <link rel="stylesheet" href="minustyle.css">
 </head>
 <body style="background-color: Gainsboro">
-<h1>Studing Git main page</h1>
-<h2>Welcome to my page</h2>
+<nav><ul>
+        <li><a href="#about">Minust</a></li>
+        <li><a href="#mvp">MVP mõiste</a></li>
+        <li><a href="#repository">Kaug-repository</a></li> </ul>
+</nav>
+<main>
+    <header>
+        <h1>Studing Git main page</h1>
+        <h2>Welcome to my page</h2> </header>
+    <section id="about">
+        <img src=".idea/beaty.name.jpeg" height="312" width="312" id="pilt1" alt="Minu picture">
+        <h3>Ma õpin Noore Tarkvaraarendaja eriala</h3>
+        <strong>Õpitud ained on:</strong>
+        <ul>
+            <li>Projekti loomine</li>
+            <li>Kontoritöö tarkvara</li>
+            <li>Arvuti- ja taristusosad</li>
+            <li>Multimeedia</li>
+        </ul>
+        <!-- Link portfooliosse -->
+        <a href="https://merkulova.thkit.ee/ta/seo-seadistamine/" target="_blank">WP Portfoolio</a>
+    </section>
+
+    <section id="mvp">
+        <h2>MVP mõiste</h2>
+        <strong>Minimal Viable Product</strong> - Тестовая версия продукта, услуги, товара, которая показывает жизнеспособность проекта.<br>
+        Его делают, чтобы быстро проверить, нравится ли идея, и собрать мнение от пользователей.<br>
+        Полезность разработки MVP доказывают примеры крупных на данный момент компаний. Например, Даниэль Эк и Мартин Лорентсон в 2006 году запустили небольшой сервис с одной функцией — потоковая передача музыки. Сейчас мы знаем этот продукт под названием Spotify.
+    </section>
+
+
+    <img src=".idea/MVP.jpg" id="pilt2" alt="MVP pilt">
+
+
+    <section id="repository">
+        <h2>Kaug-repository loomine</h2>
+        <h4>Sisselogida GitHubis → valida „New repository” → sisesta reposi nimi ja vali seaded (näiteks privaatsus) → loo repo ja kopeeri selle URL.</h4>
+        <code><p class="uppercase">git remote add origin https://github.com/OlDeHaund/Ravil.veeb.git
+            git add . <br>
+            git commit -m -a "Tekst mis me paneme kommetreerimiseks" <br>
+            git push -u origin master/main  </code>
+    </section>
+</main>
+
+<!-- Jalus -->
+<footer>
+    <p>© This text was added by <strong>footeri</strong> for this command control</p>
+</footer>
+
 </body>
-<!--pilt-->
-<img src=".idea/beaty.name.jpeg" height="312" width="312" id="pilt1" alt="Minu picture">
-<body>
-<h3>Ma õpin Noore Tarkvaraarendaja eriala</h3>
-<strong>Õpitud aided on:</strong>
-<ul>
-    <li>Projekti loomine</li>
-    <li>Kontoritõõ tarkvara</li>
-    <li>Aruti- ja taristus osad</li>
-    <li>Multimeedia</li>
-
-</ul>
-<!--link to e-portfooliosse -->
-<a href="https://merkulova.thkit.ee/ta/seo-seadistamine/" target="_blank">
-    WP Portfoolio </a>
-<div id="issues1">
-    <h2>MVP mõiste</h2>
-
-    <strong> Minimal Viable Product </strong> - Тестовая версия продукта, услуги, товара которая показывает жизнеспособность проекта.<br>
-    Его делают, чтобы быстро проверить, нравится ли идея, и собрать мнение от пользователей.<br>
-    Полезность разработки MVP доказывают примеры крупных на данный момент компаний. Например, Даниэль Эк и Мартин Лорентсон в 2006 году <br>
-    запустили небольшой сервис с одной функцией — потоковая передача музыки. Сейчас мы знаем этот продукт под названием Spotify
-</div>
-</body>
-
-<img src=".idea/MVP.jpg" id="pilt2" alt="Minu pilt"/>
-
-
 </html>
